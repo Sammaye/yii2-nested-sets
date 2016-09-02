@@ -365,7 +365,7 @@ class NestedSetsBehavior extends Behavior
 
         $this->owner->setAttribute($this->leftAttribute, 1);
         $this->owner->setAttribute($this->rightAttribute, 2);
-        $this->owner->setAttribute($this->depthAttribute, 0);
+        $this->owner->setAttribute($this->depthAttribute, 1);
     }
 
     /**
